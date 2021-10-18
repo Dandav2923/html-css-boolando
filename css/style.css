@@ -24,9 +24,6 @@ body {
 
 .float {
     float: left;
-}
-
-.colonna {
     width: 33%;
 }
 
@@ -35,7 +32,7 @@ body {
 }
 
 .centro {
+    width: calc(33% - 20px);
     margin-left: 10px;
     margin-right: 10px;
-    width: calc(33% - 20px);
 }
