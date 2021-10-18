@@ -1,3 +1,4 @@
+/* formattazione */
 * {
     margin: 0;
     padding: 0;
@@ -14,9 +15,17 @@ body {
     margin: 1em auto;
 }
 
+/* fine formattazione */
+
+/* dimensione del blocco dei prodotti */
+
 .sezione-prodotti {
     width: 100%;
 }
+
+/* /dimensione del blocco dei prodotti */
+
+/* debug per float */
 
 .clearfix::after {
     content: '';
@@ -29,6 +38,15 @@ body {
     width: 33%;
 }
 
+/* /debug per float */
+
+/* struttura della sezione prodotto */
+
+.colonna {
+    padding: 10px;
+    position: relative;
+}
+
 .immagine-principale {
     width: 100%;
 }
@@ -36,19 +54,6 @@ body {
 .immagine-secondaria {
     width: 100%;
     display: none;
-}
-
-.colonna {
-    padding: 10px;
-    position: relative;
-}
-
-.colonna:hover > .immagine-principale {
-    display: none;
-}
-
-.colonna:hover > .immagine-secondaria {
-    display: block;
 }
 
 .sconto, .sostenibilità {
@@ -106,6 +111,20 @@ body {
     left: 10px;
 }
 
+/* /struttura della sezione prodotto */
+
+/* regole per hover */
+
 .cuore:hover {
     color: red;
 }
+
+.colonna:hover > .immagine-principale {
+    display: none;
+}
+
+.colonna:hover > .immagine-secondaria {
+    display: block;
+}
+
+/* /regole per hover */
