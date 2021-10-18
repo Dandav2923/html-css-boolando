@@ -30,16 +30,24 @@ body {
 
 .immagine-principale {
     width: 100%;
-    display: block;
 }
 
-.immagine-principale:hover {
+.immagine-secondaria {
+    width: 100%;
     display: none;
 }
 
 .colonna {
     padding: 10px;
     position: relative;
+}
+
+.colonna:hover > .immagine-principale {
+    display: none;
+}
+
+.colonna:hover > .immagine-secondaria {
+    display: block;
 }
 
 .sconto, .sostenibilità {
@@ -88,12 +96,12 @@ body {
     text-decoration-line: line-through;
 }
 
-.immagine-secondaria {
-   
-    display: none;
+.solo {
+    position: absolute;
+    bottom: 25%;
+    left: 10px;
 }
 
-.immagine-secondaria:hover {
-    display: block;
-    width: 100%;
+.cuore:hover {
+    color: red;
 }
