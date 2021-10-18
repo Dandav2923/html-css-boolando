@@ -14,7 +14,7 @@ body {
 }
 
 .sezione-prodotti {
-    width: 90%;
+    width: 100%;
 }
 .clearfix::after {
     content: '';
@@ -26,11 +26,16 @@ body {
     float: left;
 }
 
+.colonna {
+    width: 33%;
+}
+
 .immagine {
-    width: calc(33% - 20px)
+    width: 100%;
 }
 
 .centro {
     margin-left: 10px;
     margin-right: 10px;
+    width: calc(33% - 20px);
 }
