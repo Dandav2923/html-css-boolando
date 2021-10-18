@@ -27,12 +27,57 @@ body {
     width: 33%;
 }
 
-.immagine {
+.immagine-principale {
     width: 100%;
 }
 
-.centro {
-    width: calc(33% - 20px);
-    margin-left: 10px;
-    margin-right: 10px;
+.colonna {
+    padding: 10px;
+    position: relative;
+}
+
+.sconto, .sostenibilità {
+    display: inline-block;
+    color: white;
+}
+
+.sconto {
+    padding: 5px;
+    background-color: red;
+    position: absolute;
+    bottom: 25%;
+    left: 10px;
+}
+
+.sostenibilità {
+    padding: 5px;
+    background-color: green;
+    position: absolute;
+    bottom: 25%;
+    left: 60px;
+}
+
+.cuore {
+    position: absolute;
+    top: 5%;
+    right: 4%;
+    background-color: white;
+    padding: 5px;
+}
+
+.marca-prodotto {
+    font-size: 0.8em;
+}
+
+.nome-prodotto {
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.prezzo-scontato {
+    color: red;
+}
+
+.prezzo-barrato {
+    text-decoration-line: line-through;
 }
