@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    width: 90%;
+    margin: 1em auto;
+}
+
+.sezione-prodotti {
+    width: 90%;
+}
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float {
+    float: left;
+}
+
+.immagine {
+    width: calc(33% - 20px)
+}
+
+.centro {
+    margin-left: 10px;
+    margin-right: 10px;
+}
