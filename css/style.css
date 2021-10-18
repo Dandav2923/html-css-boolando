@@ -30,6 +30,11 @@ body {
 
 .immagine-principale {
     width: 100%;
+    display: block;
+}
+
+.immagine-principale:hover {
+    display: none;
 }
 
 .colonna {
@@ -84,9 +89,11 @@ body {
 }
 
 .immagine-secondaria {
+   
     display: none;
 }
 
 .immagine-secondaria:hover {
     display: block;
+    width: 100%;
 }
