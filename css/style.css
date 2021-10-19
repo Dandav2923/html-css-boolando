@@ -49,6 +49,7 @@ body {
 
 .immagine-principale {
     width: 100%;
+    display: block;
 }
 
 .immagine-secondaria {
