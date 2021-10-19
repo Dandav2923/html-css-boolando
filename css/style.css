@@ -63,19 +63,19 @@ body {
 }
 
 .sconto {
-    padding: 5px;
+    padding: 0.5em;
     background-color: red;
     position: absolute;
     bottom: 25%;
-    left: 10px;
+    left: 0.65em;            
 }
 
 .sostenibilità {
-    padding: 5px;
+    padding: 0.5em;
     background-color: green;
     position: absolute;
     bottom: 25%;
-    left: 65px;
+    left: 4.5em;
 }
 
 .cuore {
@@ -83,9 +83,9 @@ body {
     text-decoration: none;
     position: absolute;
     top: 5%;
-    right: 4%;
+    right: 2.5%;
     background-color: white;
-    padding: 5px;
+    padding: 0.5em;
     cursor:pointer;
 }
 
